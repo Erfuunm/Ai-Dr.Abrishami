@@ -1,0 +1,12 @@
+E:\.net\Dr.Abrishami-Ai\Dr.Abrishami-Ai\Shared\bin\Debug\net6.0\Dr.Abrishami-Ai.Shared.deps.json
+E:\.net\Dr.Abrishami-Ai\Dr.Abrishami-Ai\Shared\bin\Debug\net6.0\Dr.Abrishami-Ai.Shared.dll
+E:\.net\Dr.Abrishami-Ai\Dr.Abrishami-Ai\Shared\bin\Debug\net6.0\Dr.Abrishami-Ai.Shared.pdb
+E:\.net\Dr.Abrishami-Ai\Dr.Abrishami-Ai\Shared\obj\Debug\net6.0\Dr.Abrishami-Ai.Shared.csproj.AssemblyReference.cache
+E:\.net\Dr.Abrishami-Ai\Dr.Abrishami-Ai\Shared\obj\Debug\net6.0\Dr.Abrishami-Ai.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\.net\Dr.Abrishami-Ai\Dr.Abrishami-Ai\Shared\obj\Debug\net6.0\Dr.Abrishami-Ai.Shared.AssemblyInfoInputs.cache
+E:\.net\Dr.Abrishami-Ai\Dr.Abrishami-Ai\Shared\obj\Debug\net6.0\Dr.Abrishami-Ai.Shared.AssemblyInfo.cs
+E:\.net\Dr.Abrishami-Ai\Dr.Abrishami-Ai\Shared\obj\Debug\net6.0\Dr.Abrishami-Ai.Shared.csproj.CoreCompileInputs.cache
+E:\.net\Dr.Abrishami-Ai\Dr.Abrishami-Ai\Shared\obj\Debug\net6.0\Dr.Abrishami-Ai.Shared.dll
+E:\.net\Dr.Abrishami-Ai\Dr.Abrishami-Ai\Shared\obj\Debug\net6.0\refint\Dr.Abrishami-Ai.Shared.dll
+E:\.net\Dr.Abrishami-Ai\Dr.Abrishami-Ai\Shared\obj\Debug\net6.0\Dr.Abrishami-Ai.Shared.pdb
+E:\.net\Dr.Abrishami-Ai\Dr.Abrishami-Ai\Shared\obj\Debug\net6.0\ref\Dr.Abrishami-Ai.Shared.dll
