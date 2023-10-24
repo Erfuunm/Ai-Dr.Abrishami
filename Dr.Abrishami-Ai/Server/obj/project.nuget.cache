@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "agSpomsiI/4XF95zK0rv48H7uIJilYzO8DnFRHuh6gSPIIcru7Q0L3dPWkxUP+kRZql8/cD8vBZHFU3UzGgHyA==",
+  "dgSpecHash": "KVFSvDs2mkCSd0GvUcGG09kwr+X9eI6aLPeot4ElI28VEjxyt+hfUORea5kd9rdgRddafbc4mG5/jfd6FF9ZIw==",
   "success": true,
-  "projectFilePath": "E:\\.net\\Dr.Abrishami-Ai\\Dr.Abrishami-Ai\\Server\\Dr.Abrishami-Ai.Server.csproj",
+  "projectFilePath": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Server\\Dr.Abrishami-Ai.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arman\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.19\\microsoft.aspnetcore.authorization.6.0.19.nupkg.sha512",
     "C:\\Users\\arman\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.19\\microsoft.aspnetcore.components.6.0.19.nupkg.sha512",
