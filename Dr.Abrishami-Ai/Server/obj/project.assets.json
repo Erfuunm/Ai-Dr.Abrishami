@@ -1224,11 +1224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\.net\\Dr.Abrishami-Ai\\Dr.Abrishami-Ai\\Server\\Dr.Abrishami-Ai.Server.csproj",
+      "projectUniqueName": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Server\\Dr.Abrishami-Ai.Server.csproj",
       "projectName": "Dr.Abrishami-Ai.Server",
-      "projectPath": "E:\\.net\\Dr.Abrishami-Ai\\Dr.Abrishami-Ai\\Server\\Dr.Abrishami-Ai.Server.csproj",
+      "projectPath": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Server\\Dr.Abrishami-Ai.Server.csproj",
       "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
-      "outputPath": "E:\\.net\\Dr.Abrishami-Ai\\Dr.Abrishami-Ai\\Server\\obj\\",
+      "outputPath": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1251,11 +1251,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\.net\\Dr.Abrishami-Ai\\Dr.Abrishami-Ai\\Client\\Dr.Abrishami-Ai.Client.csproj": {
-              "projectPath": "E:\\.net\\Dr.Abrishami-Ai\\Dr.Abrishami-Ai\\Client\\Dr.Abrishami-Ai.Client.csproj"
+            "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\Dr.Abrishami-Ai.Client.csproj": {
+              "projectPath": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\Dr.Abrishami-Ai.Client.csproj"
             },
-            "E:\\.net\\Dr.Abrishami-Ai\\Dr.Abrishami-Ai\\Shared\\Dr.Abrishami-Ai.Shared.csproj": {
-              "projectPath": "E:\\.net\\Dr.Abrishami-Ai\\Dr.Abrishami-Ai\\Shared\\Dr.Abrishami-Ai.Shared.csproj"
+            "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Shared\\Dr.Abrishami-Ai.Shared.csproj": {
+              "projectPath": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Shared\\Dr.Abrishami-Ai.Shared.csproj"
             }
           }
         }

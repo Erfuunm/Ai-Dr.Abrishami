@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\.net\\Dr.Abrishami-Ai\\Dr.Abrishami-Ai\\Shared\\Dr.Abrishami-Ai.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\arman\\Source\\Repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Shared\\Dr.Abrishami-Ai.Shared.csproj",
       "projectName": "Dr.Abrishami-Ai.Shared",
-      "projectPath": "E:\\.net\\Dr.Abrishami-Ai\\Dr.Abrishami-Ai\\Shared\\Dr.Abrishami-Ai.Shared.csproj",
+      "projectPath": "C:\\Users\\arman\\Source\\Repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Shared\\Dr.Abrishami-Ai.Shared.csproj",
       "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
-      "outputPath": "E:\\.net\\Dr.Abrishami-Ai\\Dr.Abrishami-Ai\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\arman\\Source\\Repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
