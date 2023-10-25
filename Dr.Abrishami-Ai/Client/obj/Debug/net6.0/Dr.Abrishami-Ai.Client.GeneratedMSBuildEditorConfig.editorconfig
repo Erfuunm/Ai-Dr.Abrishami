@@ -20,16 +20,12 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Shared/QuestionMinimal.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFF1ZXN0aW9uTWluaW1hbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Shared/SurveyPrompt.razor]
