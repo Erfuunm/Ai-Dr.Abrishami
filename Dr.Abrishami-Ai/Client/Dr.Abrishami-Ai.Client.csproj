@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Shared\PersonData.razor" />
     <Content Remove="Shared\Sidebar.razor" />
   </ItemGroup>
 
@@ -32,11 +33,17 @@
 	</ItemGroup>
 	
 	<ItemGroup>
+	  <_ContentIncludedByDefault Remove="Shared\PersonData.razor" />
 	  <_ContentIncludedByDefault Remove="Shared\Sidebar.razor" />
 	</ItemGroup>
 	
 	<ItemGroup>
+	  <None Include="Shared\PersonData.razor" />
 	  <None Include="Shared\Sidebar.razor" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <UpToDateCheckInput Remove="Shared\PersonData.razor" />
 	</ItemGroup>
 
 
