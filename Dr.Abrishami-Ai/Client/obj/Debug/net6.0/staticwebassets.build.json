@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "44K8UKJqUIwybec3fLYydNCXARu+EsPrd1Dwlrs4jYg=",
+  "Hash": "QN8qFSYCE821YPBTusTuqbrORR6VXprPawLT2VRsfyk=",
   "Source": "Dr.Abrishami-Ai.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\arman\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\arman\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\arman\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\arman\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\MudBlazor.min.js"
+    },
     {
       "Identity": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "Dr.Abrishami-Ai.Client",
@@ -527,6 +561,40 @@
       "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.FileSystemGlobbing.dll"
     },
     {
+      "Identity": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.dll",
+      "SourceId": "Dr.Abrishami-Ai.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\6.0.16\\lib\\net6.0\\Microsoft.Extensions.Localization.Abstractions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.dll",
+      "SourceId": "Dr.Abrishami-Ai.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.extensions.localization\\6.0.16\\lib\\net6.0\\Microsoft.Extensions.Localization.dll"
+    },
+    {
       "Identity": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
       "SourceId": "Dr.Abrishami-Ai.Client",
       "SourceType": "Computed",
@@ -712,6 +780,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.20\\runtimes\\browser-wasm\\lib\\net6.0\\mscorlib.dll"
+    },
+    {
+      "Identity": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "SourceId": "Dr.Abrishami-Ai.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\arman\\.nuget\\packages\\mudblazor\\6.11.0\\lib\\net6.0\\MudBlazor.dll"
     },
     {
       "Identity": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\netstandard.dll",
@@ -3944,6 +4029,23 @@
       "OriginalItemSpec": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.DiagnosticSource.dll"
     },
     {
+      "Identity": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\obj\\Debug\\net6.0\\build-gz\\6Aag6HjJ.gz",
+      "SourceId": "Dr.Abrishami-Ai.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll"
+    },
+    {
       "Identity": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\obj\\Debug\\net6.0\\build-gz\\6EO6wydR.gz",
       "SourceId": "Dr.Abrishami-Ai.Client",
       "SourceType": "Computed",
@@ -5030,6 +5132,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Dr.Abrishami-Ai.Client.dll"
+    },
+    {
+      "Identity": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\obj\\Debug\\net6.0\\build-gz\\jhgS5AGI.gz",
+      "SourceId": "Dr.Abrishami-Ai.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.dll"
     },
     {
       "Identity": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\obj\\Debug\\net6.0\\build-gz\\joS2a53L.gz",
@@ -6424,6 +6543,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Globalization.Extensions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\obj\\Debug\\net6.0\\build-gz\\V9YLmpoB.gz",
+      "SourceId": "Dr.Abrishami-Ai.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Client\\obj\\Debug\\net6.0\\build-gz\\VaPGffgO.gz",

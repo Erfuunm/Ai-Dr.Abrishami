@@ -1656,3 +1656,15 @@ C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net
 C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\scopedcss\projectbundle\Dr.Abrishami-Ai.Client.bundle.scp.css
 C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\Dr.Abrishami-Ai.Client.csproj.CopyComplete
 C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\ref\Dr.Abrishami-Ai.Client.dll
+C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Localization.dll
+C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\bin\Debug\net6.0\wwwroot\_framework\MudBlazor.dll
+C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\bin\Debug\net6.0\wwwroot\_framework\MudBlazor.dll.gz
+C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Localization.dll.gz
+C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.dll.gz
+C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\bin\Debug\net6.0\Microsoft.Extensions.Localization.dll
+C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\bin\Debug\net6.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\bin\Debug\net6.0\MudBlazor.dll
+C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\jhgS5AGI.gz
+C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\V9YLmpoB.gz
+C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\6Aag6HjJ.gz

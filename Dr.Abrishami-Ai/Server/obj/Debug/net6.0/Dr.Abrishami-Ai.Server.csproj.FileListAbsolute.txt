@@ -108,3 +108,6 @@ C:\Users\arman\Source\Repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Server\obj\Debug\net
 C:\Users\arman\Source\Repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Server\obj\Debug\net6.0\Dr.Abrishami-Ai.Server.pdb
 C:\Users\arman\Source\Repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Server\obj\Debug\net6.0\Dr.Abrishami-Ai.Server.genruntimeconfig.cache
 C:\Users\arman\Source\Repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Server\obj\Debug\net6.0\ref\Dr.Abrishami-Ai.Server.dll
+C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Server\bin\Debug\net6.0\Microsoft.Extensions.Localization.dll
+C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Server\bin\Debug\net6.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Server\bin\Debug\net6.0\MudBlazor.dll

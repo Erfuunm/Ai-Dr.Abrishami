@@ -11,7 +11,7 @@
         "projectName": "Dr.Abrishami-Ai.Shared",
         "projectPath": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Shared\\Dr.Abrishami-Ai.Shared.csproj",
         "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arman\\Source\\Repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\arman\\source\\repos\\Ai-Dr.Abrishami\\Dr.Abrishami-Ai\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
