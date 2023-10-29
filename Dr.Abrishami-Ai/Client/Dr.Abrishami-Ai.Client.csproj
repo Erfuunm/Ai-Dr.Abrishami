@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Content Remove="Shared\Sidebar.razor" />
+    <Content Remove="Shared\TeamRanking.razor" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,10 +35,16 @@
 	
 	<ItemGroup>
 	  <_ContentIncludedByDefault Remove="Shared\Sidebar.razor" />
+	  <_ContentIncludedByDefault Remove="Shared\TeamRanking.razor" />
 	</ItemGroup>
 	
 	<ItemGroup>
 	  <None Include="Shared\Sidebar.razor" />
+	  <None Include="Shared\TeamRanking.razor" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <UpToDateCheckInput Remove="Shared\TeamRanking.razor" />
 	</ItemGroup>
 
 
