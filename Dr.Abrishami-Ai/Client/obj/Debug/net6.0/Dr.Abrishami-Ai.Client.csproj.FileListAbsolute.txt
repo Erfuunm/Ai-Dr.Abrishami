@@ -1638,10 +1638,6 @@ C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net
 C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\BIIZyB1U.gz
 C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\LeWqvTuL.gz
 C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\OCNukA6o.gz
-C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\uwrh31pD.gz
-C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\Lls9MMFK.gz
-C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\JbVYkLTA.gz
-C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\DGsRi18r.gz
 C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\Lvf5S00A.gz
 C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\blazor.boot.json
 C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\staticwebassets\msbuild.Dr.Abrishami-Ai.Client.Microsoft.AspNetCore.StaticWebAssets.props
@@ -1668,3 +1664,7 @@ C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\bin\Debug\net
 C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\jhgS5AGI.gz
 C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\V9YLmpoB.gz
 C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\6Aag6HjJ.gz
+c:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\wgJkqZK3.gz
+c:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\n5+fhsaJ.gz
+c:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\V6HNBF5Q.gz
+c:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client\obj\Debug\net6.0\build-gz\kE9VfU3Q.gz

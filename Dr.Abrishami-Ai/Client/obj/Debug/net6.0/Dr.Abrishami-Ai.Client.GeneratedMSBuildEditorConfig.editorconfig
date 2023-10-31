@@ -16,46 +16,46 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\arman\source\repos\Ai-Dr.Abrishami\Dr.Abrishami-Ai\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/App.razor]
+[c:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Pages/Index.razor]
+[c:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Pages/QuestionPart.razor]
+[c:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Pages/QuestionPart.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVlc3Rpb25QYXJ0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Pages/RegisterPage.razor]
+[c:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Pages/RegisterPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXJQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Shared/PersonDetail.razor]
+[c:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Shared/PersonDetail.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBlcnNvbkRldGFpbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Shared/QuestionComponent.razor]
+[c:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Shared/QuestionComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFF1ZXN0aW9uQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Shared/QuestionMinimal.razor]
+[c:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Shared/QuestionMinimal.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFF1ZXN0aW9uTWluaW1hbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Shared/Ranking.razor]
+[c:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Shared/Ranking.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJhbmtpbmcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Shared/SurveyPrompt.razor]
+[c:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/_Imports.razor]
+[c:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Shared/MainLayout.razor]
+[c:/Users/arman/source/repos/Ai-Dr.Abrishami/Dr.Abrishami-Ai/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-oon3ip424j

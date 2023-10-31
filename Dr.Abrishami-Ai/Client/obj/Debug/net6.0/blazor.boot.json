@@ -199,15 +199,15 @@
       "mscorlib.dll": "sha256-j4L8eYEbpTL2UGB4uTT5qwkcqJsmB46NkVr5uesXgJI=",
       "netstandard.dll": "sha256-2M8m82GceNG8Z8I4dD74L7Tl4vwXdwXcVpYN80ouzQA=",
       "System.Private.CoreLib.dll": "sha256-dFxocfrY9q0E7UJ6nBlyNfnWYTyPu3RKzSggfRhoPJY=",
-      "Dr.Abrishami-Ai.Shared.dll": "sha256-WJ\/3J5MaVxamyCRndY4jompeY15CntBglF1IFakhUXo=",
-      "Dr.Abrishami-Ai.Client.dll": "sha256-8wEbj8KOTQzEkDixY6qEgL4ucTNeGd4oKdF4FCWlBxk="
+      "Dr.Abrishami-Ai.Shared.dll": "sha256-Jx2T5NCkA8q8K5pBDS7DB+Y5LxrhACavxOc5DS61QoE=",
+      "Dr.Abrishami-Ai.Client.dll": "sha256-I5MHyZichUyEyIg9CHLCjvq2qlZOJuUJzdUyw8jE0uY="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Dr.Abrishami-Ai.Shared.pdb": "sha256-JSq7mr4DJ30KE9moFc+XDfIK0HHBo0+PtAtggBShmGo=",
-      "Dr.Abrishami-Ai.Client.pdb": "sha256-nVa8uD2Q9NjebbdLr+rVxezPcF7yzn1xM\/hGZrFnajc="
+      "Dr.Abrishami-Ai.Shared.pdb": "sha256-In8mzfH7Umm2FDjBPMaURsYjdRT0U0e+UNu6xRSSWNY=",
+      "Dr.Abrishami-Ai.Client.pdb": "sha256-yzqdZbcKpDD2t4DIKqmbY5HuN0sRyybksxI0MHJUXTA="
     },
     "runtime": {
       "dotnet.6.0.20.vyji8jcir0.js": "sha256-iXtnf0CK+zdIWjR0cpE38tWChIpNC6sO+aSQAW+aBQU=",
