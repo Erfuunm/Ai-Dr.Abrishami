@@ -9,10 +9,12 @@
 
   <ItemGroup>
     <Content Remove="Shared\Sidebar.razor" />
-    <Content Remove="Shared\TeamRanking.razor" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Blazored.LocalStorage" Version="4.4.0" />
+    <PackageReference Include="Blazored.SessionStorage" Version="2.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="6.0.24" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.19" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.19" PrivateAssets="all" />
     <PackageReference Include="MudBlazor" Version="6.11.0" />
@@ -35,16 +37,10 @@
 	
 	<ItemGroup>
 	  <_ContentIncludedByDefault Remove="Shared\Sidebar.razor" />
-	  <_ContentIncludedByDefault Remove="Shared\TeamRanking.razor" />
 	</ItemGroup>
 	
 	<ItemGroup>
 	  <None Include="Shared\Sidebar.razor" />
-	  <None Include="Shared\TeamRanking.razor" />
-	</ItemGroup>
-	
-	<ItemGroup>
-	  <UpToDateCheckInput Remove="Shared\TeamRanking.razor" />
 	</ItemGroup>
 
 

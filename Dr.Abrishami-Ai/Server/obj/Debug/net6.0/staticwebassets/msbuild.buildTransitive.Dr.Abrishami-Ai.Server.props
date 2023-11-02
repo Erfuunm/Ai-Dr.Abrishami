@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Dr.Abrishami-Ai.Server.props" />
-</Project>
