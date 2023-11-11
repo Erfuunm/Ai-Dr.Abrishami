@@ -1,0 +1,49 @@
+﻿@page "/Shop"
+
+
+@using Dr.Abrishami_Ai.Client.Extention;
+@using Microsoft.AspNetCore.Authorization;
+@using Microsoft.AspNetCore.Components.Authorization;
+
+
+@inject AuthenticationStateProvider authenticationStateProvider;
+@inject NavigationManager navManager;
+
+
+
+
+
+<div class="Left-0 mr-6 w-[100%] h-[100vh] bg-[#666]">
+
+    <AuthorizeView>
+        <Authorized>
+
+            @* <h1>Wellcome @context.User.Identity!.Name</h1>*@
+
+        </Authorized>
+
+    </AuthorizeView>
+
+    <SurveyPrompt />
+
+    <div class="fixed ml-[25%] top-[12.5%] rounded-[25px]  w-[400px] h-[50px] bg-[#fff] ">
+
+        
+    </div>
+    <div class="flex flex-col gap-y-12 justify-center items-center pr-[240px] pt-[12.5%] ">
+      <ShopItem />
+      <ShopItem  />
+
+    </div>
+
+
+    <InformIcon />
+
+</div>
+
+@code {
+
+
+
+
+}

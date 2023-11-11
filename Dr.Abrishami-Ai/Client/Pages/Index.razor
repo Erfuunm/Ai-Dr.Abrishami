@@ -18,7 +18,7 @@
     <AuthorizeView>
         <Authorized>
 
-            <h1>Wellcome @context.User.Identity!.Name</h1>
+           @* <h1>Wellcome @context.User.Identity!.Name</h1>*@
 
         </Authorized>
 
@@ -28,19 +28,14 @@
     <QuestionMinimal />
 
 
-
+@*
     <div class="grid grid-cols-3 gap-4 fixed top-0 left-0 w-[550px] h-[180px] ">
-        <div class=" p-4"> <PersonDetail /></div>
-        <div class=" p-4"> <PersonDetail /></div>
-        <div class=" p-4"> <PersonDetail /></div>
+       
 
-    </div>
+    </div>*@
 
-    <div class="flex flex-col gap-y-3 justify-center pt-[200px] pl-[80px] xl:pl-[600px] xl:pt-[0] xl:-mt-[140px] ">
-        <div> <Ranking />  </div>
-        <div> <Ranking />  </div>
-        <div> <Ranking />  </div>
-        <div> <Ranking />  </div>
+    <div class="flex flex-col gap-y-3 justify-center pt-[50px] pl-[80px] xl:pl-[600px] xl:pt-[0] xl:-mt-[0px] ">
+     <News/>
 
     </div>
     <div class=" mt-[100px] ml-[100px]">
@@ -48,8 +43,7 @@
 
 
     </div>
-   
-
+    <InformIcon />
 
 </div>
 
