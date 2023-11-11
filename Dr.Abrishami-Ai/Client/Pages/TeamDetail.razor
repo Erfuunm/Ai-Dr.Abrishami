@@ -1,0 +1,54 @@
+﻿@page "/TeamDetail"
+
+
+@using Dr.Abrishami_Ai.Client.Extention;
+@using Microsoft.AspNetCore.Authorization;
+@using Microsoft.AspNetCore.Components.Authorization;
+@attribute [Authorize];
+
+@inject AuthenticationStateProvider authenticationStateProvider;
+@inject NavigationManager navManager;
+
+
+
+
+
+<div class="Left-0 mr-6 w-[100%] h-[100vh] bg-[#666]">
+
+    <AuthorizeView>
+        <Authorized>
+
+            @* <h1>Wellcome @context.User.Identity!.Name</h1>*@
+
+        </Authorized>
+
+    </AuthorizeView>
+
+    <SurveyPrompt />
+  
+
+
+   
+   
+
+    <div class="flex flex-col gap-y-12 justify-center pt-[50px] pl-[120px] xl:pl-[680px] xl:pt-[50px] xl:-mt-[0px] ">
+      <Ranking />
+      <Ranking/>
+
+    </div>
+
+    <div class=" fixed left-[155px] top-[50px]">
+        <TeamDataView />
+    </div>
+
+   
+   <InformIcon />
+
+</div>
+
+@code {
+
+ 
+
+
+}
