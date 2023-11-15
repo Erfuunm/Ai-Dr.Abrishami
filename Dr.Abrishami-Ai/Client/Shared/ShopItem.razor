@@ -1,21 +1,53 @@
 ﻿
 
-<div class="ShopItem">
-  
+@if (isShop)
+{
+    <div class="ShopItem">
 
-        <img class=" w-[100px] h-[100px]" src="/images/Fight.png" alt="Image description">
-    <img class=" w-[100px] h-[100px]" src="/images/Kill.png" alt="Image description">
-    <img class=" w-[100px] h-[100px]" src="/images/Time.png" alt="Image description">
+        <div class="  flex flex-row space-x-[100px] pt-[10px] ">
+            <img class=" w-[100px] h-[100px]" src="/images/Fight.png" alt="Image description">
+            <img class=" w-[100px] h-[100px]" src="/images/Kill.png" alt="Image description">
+            <img class=" w-[100px] h-[100px]" src="/images/Time.png" alt="Image description">
+
+        </div>
+
+        <div class="  flex flex-row space-x-[100px] ">
+            <MudButton Variant="Variant.Filled" Style=" width: 100px; height: 35px;" EndIcon="@Icons.Material.Filled.ShoppingCart" Color="Color.Dark">خرید</MudButton>
+            <MudButton Variant="Variant.Filled" Style=" width: 100px; height: 35px;" EndIcon="@Icons.Material.Filled.ShoppingCart" Color="Color.Dark">خرید</MudButton>
+            <MudButton Variant="Variant.Filled" Style=" width: 100px; height: 35px;" EndIcon="@Icons.Material.Filled.ShoppingCart" Color="Color.Dark">خرید</MudButton>
+
+        </div>
+
+    </div>
+}
+else
+{
+    <div class="ShopItem">
+
+        <div class="  flex flex-row space-x-[100px] pt-[10px] ">
+           
+
+        </div>
+
+        <div class="  flex flex-row space-x-[100px] ">
+          
+
+        </div>
+
+    </div>
+    
+}
 
 
-</div>
 
 <style type="text/css">
     .ShopItem {
         display:flex;
-        justify-content:space-around;
-        width: 680px;
+        flex-direction:column;
         align-items:center;
+        row-gap=35px;
+        width: 680px;
+       
         height: 204px;
         border-radius: 30px;
         background: #212121;
@@ -25,6 +57,9 @@
 </style>
 
 @code {
- 
+    [Parameter]
+    public bool isShop { set; get; }
+    
+
 
 }

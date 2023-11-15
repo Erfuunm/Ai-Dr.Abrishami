@@ -38,23 +38,14 @@
      <News/>
 
     </div>
-    <div class=" mt-[100px] ml-[100px]">
-        <a class=" border border-red-300" @onclick="LogOut" href="javascript:void(0)">Logout</a>
-
-
-    </div>
+   
     <InformIcon />
 
 </div>
 
 @code {
 
-    private async Task LogOut()
-    {
-        var authenticationExt = (AuthenticationExtention)authenticationStateProvider;
-        await authenticationExt.UpdateAuthentication(null);
-        navManager.NavigateTo("/", true);
-    }
+   
 
 
 }
