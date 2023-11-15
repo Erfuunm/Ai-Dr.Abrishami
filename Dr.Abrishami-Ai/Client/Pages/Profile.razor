@@ -1,0 +1,52 @@
+﻿@page "/profile"
+
+
+@using Dr.Abrishami_Ai.Client.Extention;
+@using Microsoft.AspNetCore.Authorization;
+@using Microsoft.AspNetCore.Components.Authorization;
+@attribute [Authorize];
+
+@inject AuthenticationStateProvider authenticationStateProvider;
+@inject NavigationManager navManager;
+
+
+
+
+
+<div class="Left-0 mr-6 w-[100%] h-[100vh] bg-[#666]">
+
+    <AuthorizeView>
+        <Authorized>
+
+            @* <h1>Wellcome @context.User.Identity!.Name</h1>*@
+
+        </Authorized>
+
+    </AuthorizeView>
+
+    <SurveyPrompt />
+   
+    <div>
+
+        <ProfileDataView />
+
+
+
+
+
+    </div>
+
+
+    
+
+
+    <InformIcon />
+
+</div>
+
+@code {
+
+
+
+
+}
