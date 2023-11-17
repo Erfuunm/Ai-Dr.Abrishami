@@ -1,32 +1,121 @@
-﻿<div class=" w-[400px] ">
-    <div class="p-3 flex items-center justify-between bg-[#222] border-t cursor-pointer hover:bg-gray-900">
-        <div class="flex items-center">
-            <img class="rounded-full h-10 w-10" src="https://loremflickr.com/g/600/600/girl">
-            <div class="ml-2 flex flex-col">
-                <div class="leading-snug text-sm text-gray-400 font-bold">Jane doe</div>
-                <div class="leading-snug text-xs text-gray-100">jane</div>
+﻿@using Dr.Abrishami_Ai.Shared.Entities
+
+
+<div class="flex left-0 ml-[220px] top-0 ">
+
+
+    <div class=" w-1/4 ">
+        @foreach (var item in allUsersInClasses){
+
+        <div class=" w-[290px] ">
+
+            <div class="p-3 flex items-center justify-between bg-[#222] border-t cursor-pointer hover:bg-gray-900">
+                <div class="flex items-center">
+                    <img class="rounded-full h-10 w-10" src="@item.ImgUrl">
+                    <div class="ml-2 flex flex-col">
+                        <div class="leading-snug text-sm text-gray-400 font-bold">@item.Name</div>
+                            <div class="leading-snug text-xs text-gray-200">Team : <span class="text-[12px] text-sky-800">@item.teamName</span></div>
+                        <div class="leading-snug text-xs text-gray-100">@item.RankinClass</div>
+                    </div>
+                </div>
+                <button class="h-8 px-3 text-md font-bold text-blue-400 border border-blue-400 rounded-full hover:bg-blue-100">Follow</button>
             </div>
         </div>
-        <button class="h-8 px-3 text-md font-bold text-blue-400 border border-blue-400 rounded-full hover:bg-blue-100">Follow</button>
+    
+   
+
+    }
+
+
     </div>
-    <div class="p-3 flex items-center justify-between bg-[#222] border-t cursor-pointer hover:bg-gray-900">
-        <div class="flex items-center">
-            <img class="rounded-full h-10 w-10" src="https://loremflickr.com/g/600/600/boy">
-            <div class="ml-2 flex flex-col">
-                <div class="leading-snug text-sm text-gray-400 font-bold">john doe</div>
-                <div class="leading-snug text-xs text-gray-100">john</div>
+
+
+    <div class=" w-1/4 ">
+        @foreach (var item in allUsersInClasses)
+        {
+
+            <div class=" w-[290px] ">
+
+                <div class="p-3 flex items-center justify-between bg-[#222] border-t cursor-pointer hover:bg-gray-900">
+                    <div class="flex items-center">
+                        <img class="rounded-full h-10 w-10" src="@item.ImgUrl">
+                        <div class="ml-2 flex flex-col">
+                            <div class="leading-snug text-sm text-gray-400 font-bold">@item.Name</div>
+                            <div class="leading-snug text-xs text-gray-200">@item.teamName</div>
+                            <div class="leading-snug text-xs text-gray-100">@item.RankinClass</div>
+                        </div>
+                    </div>
+                    <button class="h-8 px-3 text-md font-bold text-blue-400 border border-blue-400 rounded-full hover:bg-blue-100">Follow</button>
+                </div>
+            </div>
+
+
+
+        }
+
+
+    </div>
+
+
+    <div class=" w-1/4 ">
+
+           @foreach (var item in allUsersInClasses){
+
+        <div class=" w-[290px] ">
+
+            <div class="p-3 flex items-center justify-between bg-[#222] border-t cursor-pointer hover:bg-gray-900">
+                <div class="flex items-center">
+                    <img class="rounded-full h-10 w-10" src="@item.ImgUrl">
+                    <div class="ml-2 flex flex-col">
+                        <div class="leading-snug text-sm text-gray-400 font-bold">@item.Name</div>
+                        <div class="leading-snug text-xs text-gray-200">@item.teamName</div>
+                        <div class="leading-snug text-xs text-gray-100">@item.RankinClass</div>
+                    </div>
+                </div>
+                <button class="h-8 px-3 text-md font-bold text-blue-400 border border-blue-400 rounded-full hover:bg-blue-100">Follow</button>
             </div>
         </div>
-        <button class="h-8 px-3 text-md font-bold text-blue-400 border border-blue-400 rounded-full hover:bg-blue-100">Follow</button>
+    
+   
+   
+        
+     
+    }
+
     </div>
-    <div class="p-3 flex items-center justify-between bg-[#222] border-t cursor-pointer hover:bg-gray-900">
-        <div class="flex items-center">
-            <img class="rounded-full h-10 w-10" src="https://loremflickr.com/g/600/600/paris">
-            <div class="ml-2 flex flex-col">
-                <div class="leading-snug text-sm text-gray-400 font-bold">Paris</div>
-                <div class="leading-snug text-xs text-gray-100">paris</div>
-            </div>
-        </div>
-        <button class="h-8 px-3 text-md font-bold text-blue-400 border border-blue-400 rounded-full hover:bg-blue-100">Follow</button>
-    </div>
+
+
 </div>
+
+
+
+    
+   
+ 
+
+
+
+
+
+@code {
+    public int rowcounter { get; set; } = 0;
+
+    List<AllUsersInClass> allUsersInClasses = new List<AllUsersInClass>
+        {
+            new AllUsersInClass{ Name="Ali" , isInTeam=true , ImgUrl="https://loremflickr.com/g/600/600/paris" , RankinClass=12, teamName="Killers" },
+            new AllUsersInClass{ Name="Kamran" , isInTeam=true , ImgUrl="https://loremflickr.com/g/600/600/paris" , RankinClass=8, teamName="" },
+            new AllUsersInClass{ Name="Abool" , isInTeam=true , ImgUrl="https://loremflickr.com/g/600/600/paris" , RankinClass=6, teamName="" },
+            new AllUsersInClass{ Name="HanieO_o" , isInTeam=true , ImgUrl="https://loremflickr.com/g/600/600/paris" , RankinClass=10, teamName="Killers" },
+            new AllUsersInClass{ Name="Saba" , isInTeam=false , ImgUrl="https://loremflickr.com/g/600/600/paris" , RankinClass=3, teamName="" },
+            new AllUsersInClass{ Name="Crier" , isInTeam=true , ImgUrl="https://loremflickr.com/g/600/600/paris" , RankinClass=4, teamName="Killers" },
+            new AllUsersInClass{ Name="AmirKh" , isInTeam=true , ImgUrl="https://loremflickr.com/g/600/600/paris" , RankinClass=5, teamName="Wariors" },
+            new AllUsersInClass{ Name="Nahid" , isInTeam=true , ImgUrl="https://loremflickr.com/g/600/600/paris" , RankinClass=7, teamName="Alpha" },
+            new AllUsersInClass{ Name="Erfuun" , isInTeam=true , ImgUrl="https://loremflickr.com/g/600/600/paris" , RankinClass=1, teamName="Alpha" }
+
+        };
+
+
+
+
+
+}

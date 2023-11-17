@@ -1,20 +1,10 @@
-﻿<div class=" w-[800px] h-[800px] p-12 pt-[20px] ml-[150px]  ">
+﻿@using Dr.Abrishami_Ai.Shared.Entities;
+
+
+<div class=" w-[800px] h-[800px] p-12 pt-[60px] ml-[150px]  ">
     <div class="bg-[#222] shadow mt-10">
         <div class="grid grid-cols-3 ">
-            <div class="grid grid-cols-3 text-center  order-first  mt-0">
-                <div>
-                    <p class="font-bold text-gray-400 text-xl">22</p>
-                    <p class="text-gray-100">Friends</p>
-                </div>
-                <div>
-                    <p class="font-bold text-gray-400 text-xl">10</p>
-                    <p class="text-gray-100">Photos</p>
-                </div>
-                <div>
-                    <p class="font-bold text-gray-400 text-xl">89</p>
-                    <p class="text-gray-100">Comments</p>
-                </div>
-            </div>
+            
             <div class="relative">
                 <div class="w-48 h-48 bg-indigo-100 mx-auto rounded-full shadow-2xl absolute inset-x-0 top-0 -mt-24 flex items-center justify-center text-indigo-500">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24" viewBox="0 0 20 20" fill="currentColor">
@@ -23,30 +13,49 @@
                 </div>
             </div>
 
-            <div class="space-x-8 flex mt-0 justify-center">
-                <button class="text-white py-2 px-4 uppercase rounded bg-blue-400 hover:bg-blue-500 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">
-                    Connect
-                </button>
-                <button class="text-white py-2 px-4 uppercase rounded bg-gray-700 hover:bg-gray-800 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">
-                    Message
-                </button>
-            </div>
+            
+                <div class="grid grid-cols-3 text-center  order-first  mt-0">
+                    <div>
+                        <p class="font-bold text-gray-400 text-xl">@myUser.friendsNumber</p>
+                        <p class="text-gray-100">دوستان</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-gray-400 text-xl">@myUser.Diamonds</p>
+                        <p class="text-gray-100">الماس</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-gray-400 text-xl">@myUser.RankInClass</p>
+                        <p class="text-gray-100">رتبه</p>
+                    </div>
+                </div>
+               
+            
         </div>
 
         <div class="mt-20 text-center border-b pb-12">
-            <h1 class="text-4xl font-medium text-gray-200">Jessica Jones, <span class="font-light text-gray-100">27</span></h1>
-            <p class="font-light text-gray-400 mt-3">Bucharest, Romania</p>
+            <h1 class="text-4xl font-medium text-gray-200"> @myUser.Name - @myUser.lastName <span class="font-light text-gray-100"></span></h1>
+            <p class="font-light text-gray-400 mt-3">Team : @myUser.teamName</p>
 
-            <p class="mt-8 text-gray-400">Solution Manager - Creative Tim Officer</p>
-            <p class="mt-2 text-gray-400">University of Computer Science</p>
+            <p class="mt-8 text-gray-400">مهندسی کامپیوتر- درس هوش مصنوعی</p>
+            <p class="mt-2 text-gray-400"> دانشگاه فردوسی مشهد</p>
         </div>
 
         <div class="mt-12 flex flex-col justify-center">
-            <p class="text-gray-400 text-center font-light lg:px-16">An artist of considerable range, Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.</p>
-            <button class="text-indigo-500 py-2 px-4  font-medium mt-4">
-                Show more
-            </button>
+            <p class="text-gray-400 text-center font-light lg:px-16"> برای آرزوهات تلاش کن ، بجنگ ، خسته نشو چون باید بدویی ، کسی اینجا نیست که مواظب تو یا افرادی که دوست داری باشه. اگه می خوای کسایی که دوست داری عذاب نکشن باید قوی باشی آدمی که قوی نباشه برای هیچکس جذابیتی نداره</p>
+           
         </div>
 
     </div>
 </div>
+
+
+@code{
+    User myUser = new User()
+        {
+            Name = "Erfan", lastName = "Mizban", nickName = "Erfuun",
+            Diamonds = 500, friendsNumber = 5, friendsId = 27, teamId = 9, teamName = "Alpha", RankInClass = 1,
+    };
+
+
+
+}
