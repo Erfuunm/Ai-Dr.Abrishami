@@ -1,6 +1,55 @@
 ﻿
 
-<div class="card"></div>
+<div class="card ">
+
+    <div class="flex pt-[20px] h-[240px] overflow-y-auto hide-scrollbar">
+        <div class="m-auto space-y-1 ">
+            <div class="shadow-md bg-[#303030] p-4 flex justify-between flex-row rounded-lg">
+                <div class="bg-red-500 inline-block rounded-lg p-1 mr-1"></div>
+                <b class="p-1 text-gray-200 text-[15px] ">تمرین جدید</b>
+                <p class="p-1 text-gray-300 ">نجات سیاره مورف</p>
+                <a class="h-5 w-5 text-gray-500 inline-block p-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+            <div class="shadow-md bg-[#303030] p-4 flex justify-between flex-row rounded-lg">
+                <div class="bg-yellow-500 inline-block rounded-lg p-1 mr-1"></div>
+                <b class="p-1 text-gray-300 text-[15px]">پیام جدید</b>
+                <p class="p-1 text-gray-300">از طرف Ali-sd</p>
+                <a class="h-5 w-5 text-gray-500 inline-block p-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+            <div class="shadow-md bg-[#303030] p-4 flex justify-between flex-row rounded-lg">
+                <div class="bg-[#000] inline-block rounded-lg p-1 mr-1"></div>
+                <b class="p-1 text-gray-300 text-[15px] ">نبرد جدید</b>
+                <p class="p-1 text-gray-300"> مورد حمله قرار گرفته اید</p>
+                <a class="h-5 w-5 text-gray-500 inline-block p-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+            <div class="shadow-md bg-[#303030] p-4 flex justify-between flex-row rounded-lg">
+                <div class="bg-[#fff] inline-block rounded-lg p-1 mr-1"></div>
+                <b class="p-1 text-gray-300 text-[15px]">نبرد جدید</b>
+                <p class="p-1 text-gray-300">شما مورد حمله قرار گرفته اید</p>
+                <a class="h-5 w-5 text-gray-500 inline-block p-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+         
+        </div>
+    </div>
+
+
+</div>
 
 <style type="text/css">
     .card {
@@ -11,6 +60,17 @@
         box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
     }
 
+    .hide-scrollbar::-webkit-scrollbar {
+        width: 0.5em; /* Adjust the width as needed */
+    }
+
+    .hide-scrollbar::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+
+    .hide-scrollbar::-webkit-scrollbar-thumb {
+        background-color: transparent;
+    }
 </style>
 
 @code {
