@@ -1,0 +1,74 @@
+﻿
+@page "/spacecraft"
+
+
+@using Dr.Abrishami_Ai.Client.Extention;
+@using Microsoft.AspNetCore.Authorization;
+@using Microsoft.AspNetCore.Components.Authorization;
+@attribute [Authorize];
+
+@inject AuthenticationStateProvider authenticationStateProvider;
+@inject NavigationManager navManager;
+
+
+
+
+
+<div class="Left-0 mr-6 w-[100%] h-[100vh] bg-[#666]">
+
+    <AuthorizeView>
+        <Authorized>
+
+           @* <h1>Wellcome @context.User.Identity!.Name</h1>*@
+
+        </Authorized>
+
+    </AuthorizeView>
+
+    <SurveyPrompt />
+    
+    <div class=" fixed -top-[25px] left-[43%] ">
+
+        <img class="  hover:animate-pulse w-[500px] h-[400px]" src="/images/Spacecraft.png" alt="Image description">
+
+    </div>
+    <div class=" fixed top-[20px] left-[30px]" >
+        <div class=" flex flex-row space-x-8 ">
+             <img class=" mt-[23%]  w-[140px] h-[220px]" src="/images/Red.png" alt="Image description">
+              <img class="  w-[140px] h-[220px]" src="/images/Green.png" alt="Image description">
+               <img class=" mt-[23%] opacity-50 w-[140px] h-[220px]" src="/images/Pink.png" alt="Image description">
+        </div>
+       @*  <div class=" flex flex-row space-x-12 ">
+             <img class="   w-[100px] h-[100px]" src="/images/Ready.png" alt="Image description">
+              <img class="  w-[100px] h-[100px]" src="/images/Ready.png" alt="Image description">
+               <img class="   w-[100px] h-[100px]" src="/images/NotReady.png" alt="Image description">
+        </div>*@
+    </div>
+
+        <div class="fixed top-[55%] left-[13%] ">
+        <div class="bg-[#222] shadow mt-10 w-[800px] h-[220px] rounded-[20px]">
+
+        </div>
+    </div>
+   
+        <InformIcon />
+     
+
+
+</div>
+
+<style type="text/css">
+    .Direction{
+        direction:rtl;
+    }
+
+   
+</style>
+
+
+@code {
+
+   
+
+
+}
