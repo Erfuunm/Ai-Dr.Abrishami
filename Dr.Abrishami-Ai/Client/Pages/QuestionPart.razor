@@ -1,12 +1,201 @@
 ﻿@page "/Question"
-<div class="Left-0 mr-6 w-[100%] h-[100vh] bg-[#666]">
+@using Dr.Abrishami_Ai.Shared.Entities
+<div class="Left-0 mr-6 w-[100%] h-[170vh] bg-[#666]">
 
     
     <SurveyPrompt />
 
-    <div class="flex flex-col gap-y-3">
-        <div class=""><QuestionComponent /> </div>
-        <div class=""><QuestionComponent /> </div>
+    <div class="ml-[12%] flex flex-col gap-y-3">
+
+
+        <div class="bg-[#222] shadow mt-[80px] flex oi-justify-center items-center w-[850px] h-[200px] rounded-[20px]">
+            <div class=" flex flex-row space-x-[50px] pt-[10px] ">
+                
+                    <button @onclick="Change_Question" class="cursor-pointer mt-[10px] duration-200 hover:scale-125 active:scale-100" title="Go Back">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" viewBox="0 0 24 24" class="stroke-blue-300">
+                            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" d="M11 6L5 12M5 12L11 18M5 12H19"></path>
+                        </svg>
+                    </button>
+                
+
+
+                @if(DailyQuestion.Equals("First"))
+                {
+
+                    <div class="cursor-pointer w-[100px] h-[100px] bg-[#666] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                    </div>
+
+                    <div class="cursor-pointer w-[100px] h-[100px] bg-[#666] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                    </div>
+
+                    <div class="cursor-pointer w-[100px] h-[100px] bg-[#666] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                    </div>
+
+                    <div class="cursor-pointer w-[100px] h-[100px] bg-[#666] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                    </div>
+
+                }
+
+                @if (DailyQuestion.Equals("Second"))
+                {
+
+                    <div class="cursor-pointer w-[100px] h-[100px] bg-[#fff] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                    </div>
+
+                    <div class="cursor-pointer w-[100px] h-[100px] bg-[#fff] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                    </div>
+
+                    <div class="cursor-pointer w-[100px] h-[100px] bg-[#fff] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                    </div>
+
+                    <div class="cursor-pointer w-[100px] h-[100px] bg-[#fff] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                    </div>
+
+                }
+              
+
+
+               
+                    <button @onclick="Change_Question" class="cursor-pointer mt-[10px] transform rotate-180 duration-200 hover:scale-125 active:scale-100" title="Go Back">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" viewBox="0 0 24 24" class="stroke-blue-300">
+                            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" d="M11 6L5 12M5 12L11 18M5 12H19"></path>
+                        </svg>
+                    </button>
+                
+
+            </div>
+
+
+
+
+        </div>
+        
+
+
+        
+            <div class="bg-[#222] shadow mt-[80px] flex oi-justify-center items-center w-[850px] h-[200px] rounded-[20px]">
+            <div class=" flex flex-row space-x-[50px] pt-[10px] ">
+                <a href="profile">
+                    <button class="cursor-pointer mt-[10px] duration-200 hover:scale-125 active:scale-100" title="Go Back">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" viewBox="0 0 24 24" class="stroke-blue-300">
+                            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" d="M11 6L5 12M5 12L11 18M5 12H19"></path>
+                        </svg>
+                    </button>
+                </a>
+
+                <div class="cursor-pointer w-[100px] h-[100px] bg-[#666] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                </div>
+
+                <div class="cursor-pointer w-[100px] h-[100px] bg-[#666] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                </div>
+
+                <div class="cursor-pointer w-[100px] h-[100px] bg-[#666] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                </div>
+
+                <div class="cursor-pointer w-[100px] h-[100px] bg-[#666] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                </div>
+
+
+                <a href="profile">
+                    <button class="cursor-pointer mt-[10px] transform rotate-180 duration-200 hover:scale-125 active:scale-100" title="Go Back">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" viewBox="0 0 24 24" class="stroke-blue-300">
+                            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" d="M11 6L5 12M5 12L11 18M5 12H19"></path>
+                        </svg>
+                    </button>
+                </a>
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+        <div class="bg-[#222] shadow mt-[80px] flex oi-justify-center items-center w-[850px] h-[200px] rounded-[20px]">
+            <div class=" flex flex-row space-x-[50px] pt-[10px] ">
+                <a href="profile">
+                    <button class="cursor-pointer mt-[10px] duration-200 hover:scale-125 active:scale-100" title="Go Back">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" viewBox="0 0 24 24" class="stroke-blue-300">
+                            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" d="M11 6L5 12M5 12L11 18M5 12H19"></path>
+                        </svg>
+                    </button>
+                </a>
+
+                <div class="cursor-pointer w-[100px] h-[100px] bg-[#666] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                    
+                    <img class=" w-[70px] h-[70px] " src="/images/icons8-circled-4-50.png" alt="Image description">
+                </div>
+
+                <div class="cursor-pointer w-[100px] h-[100px] bg-[#666] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                </div>
+
+                <div class="cursor-pointer w-[100px] h-[100px] bg-[#666] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                </div>
+
+                <div class="cursor-pointer w-[100px] h-[100px] bg-[#666] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                </div>
+
+
+                <a href="profile">
+                    <button class="cursor-pointer mt-[10px] transform rotate-180 duration-200 hover:scale-125 active:scale-100" title="Go Back">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" viewBox="0 0 24 24" class="stroke-blue-300">
+                            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" d="M11 6L5 12M5 12L11 18M5 12H19"></path>
+                        </svg>
+                    </button>
+                </a>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+        <div class="bg-[#222] shadow mt-[80px] flex oi-justify-center items-center w-[850px] h-[200px] rounded-[20px]">
+            <div class=" flex flex-row space-x-[50px] pt-[10px] ">
+                <a href="profile">
+                    <button class="cursor-pointer mt-[10px] duration-200 hover:scale-125 active:scale-100" title="Go Back">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" viewBox="0 0 24 24" class="stroke-blue-300">
+                            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" d="M11 6L5 12M5 12L11 18M5 12H19"></path>
+                        </svg>
+                    </button>
+                </a>
+
+                <div class="cursor-pointer w-[100px] h-[100px] bg-[#666] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                </div>
+
+                <div class="cursor-pointer w-[100px] h-[100px] bg-[#666] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                </div>
+
+                <div class="cursor-pointer w-[100px] h-[100px] bg-[#666] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                </div>
+
+                <div class="cursor-pointer w-[100px] h-[100px] bg-[#666] group relative rounded-tr-[20px] rounded-bl-[20px] flex justify-center items-center overflow-hidden duration-200 hover:scale-75  ">
+                </div>
+
+
+                <a href="profile">
+                    <button class="cursor-pointer mt-[10px] transform rotate-180 duration-200 hover:scale-125 active:scale-100" title="Go Back">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="70px" height="70px" viewBox="0 0 24 24" class="stroke-blue-300">
+                            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" d="M11 6L5 12M5 12L11 18M5 12H19"></path>
+                        </svg>
+                    </button>
+                </a>
+
+            </div>
+
+
+
+
+        </div>
+        
 
 
     </div>
@@ -14,5 +203,46 @@
 
 
 
+
 </div>
 
+@code{
+    public List<Questions> QuestionList { get; set; }
+
+    public string DailyQuestion { get; set; } = "First";
+
+    protected override void OnInitialized()
+    {
+        // Initialize the list
+        QuestionList = new List<Questions>();
+
+        // Add random items to the list
+        Random random = new Random();
+        for (int i = 0; i < 4; i++)
+        {
+            Questions item = new Questions
+                {
+                    Id = i + 1,
+                    Qtext = "Question " + (i + 1),
+                    Point = random.Next(1, 10),
+                    Time = DateTime.Now.AddDays(random.Next(-30, 30))
+                };
+
+            QuestionList.Add(item);
+        }
+    }
+
+    public void Change_Question()
+    {
+        if (DailyQuestion.Equals("First"))
+        {
+            DailyQuestion = "Second";
+        }
+        else if (DailyQuestion.Equals("Second"))
+        {
+            DailyQuestion = "First";
+        }
+    }
+
+
+}

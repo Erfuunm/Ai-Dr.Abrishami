@@ -1,20 +1,23 @@
 ﻿@using Dr.Abrishami_Ai.Shared.Entities;
 
 
-<div class=" w-[800px] h-[600px] p-12 pt-[60px] ml-[150px]  ">
+<div class=" w-[800px] h-[600px] p-12 pt-[60px] ml-[15%]  ">
     <div class="bg-[#222] shadow mt-10 rounded-[20px]">
         <div class="grid grid-cols-3 ">
-            
-            <div class="relative">
+         
+            <div class="relative mt-[10%]">
                 <div class="w-48 h-48 bg-indigo-100 mx-auto rounded-full shadow-2xl absolute inset-x-0 top-0 -mt-24 flex items-center justify-center text-indigo-500">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
                     </svg>
                 </div>
             </div>
-
+            <div class="grid grid-cols-2">
+                <img class=" w-[100px] h-[100px]" src="/images/anim1.png" alt="Image description">
+                <MudButton Variant="Variant.Filled" Href="costomize" Style=" margin-top:38px; margin-right:35px; width: 20px; height: 30px;" EndIcon="@Icons.Material.Filled.Edit" Color="Color.Dark"></MudButton>
+            </div>
             
-                <div class="grid grid-cols-3 text-center  order-first  mt-0">
+                <div class="grid grid-cols-3 pt-[15%] text-center  order-first  mt-0">
                     <div>
                         <p class="font-bold text-gray-400 text-xl">@myUser.friendsNumber</p>
                         <p class="text-gray-100">دوستان</p>

@@ -48,10 +48,56 @@
         <div class="fixed top-[55%] left-[13%] ">
         <div class="bg-[#222] shadow mt-10 w-[800px] h-[220px] rounded-[20px]">
 
+           
+                    <div class="flex items-center justify-evenly pt-[5%] text-base text-gray-600 dark:text-gray-400">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-indigo-400 rounded-full flex items-center justify-center text-white text-xl">
+                                1
+                            </div>
+                            <span class="ml-4 font-medium">Level one</span>
+                        </div>
+
+
+                        <div class="h-1 w-16 bg-blue-200 dark:bg-blue-600"></div>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-green-400 rounded-full flex items-center justify-center text-white text-xl">
+                                2
+                            </div>
+                            <span class="ml-4 font-medium">Level 2</span>
+                        </div>
+                    </div>
+                    <div class=" ml-[37%] mt-[3%]">
+                <MudButton @onclick="Attack" Variant="Variant.Filled"  Style=" width: 200px; height: 45px;" EndIcon="@Icons.Material.Filled.Upgrade" Color="Color.Dark">Go</MudButton>
+                    </div>
+
+         
+
+
         </div>
     </div>
-   
-        <InformIcon />
+
+    <InformIcon />
+
+    @if (isAttackingPage)
+    {
+        <div class=" fixed top-0 w-[120%] h-[100vh] bg-[#000] inset-0 bg-black opacity-95">
+
+            <div class=" fixed top-[100px] w-[850px] bg-[#222]  h-[510px] shadow mt-10 rounded-[20px] ml-[13%] mt-[45%] opacity-100">
+
+                <div class="ml-[5%]">
+                    <button @onclick="Attack" class="cursor-pointer duration-200 hover:scale-125 active:scale-100" title="Go Back">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 24 24" class="stroke-blue-300">
+                            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" d="M11 6L5 12M5 12L11 18M5 12H19"></path>
+                        </svg>
+                    </button>
+                </div>
+
+
+                </div>
+         </div>
+    }
+
+       
      
 
 
@@ -68,7 +114,19 @@
 
 @code {
 
-   
+    public bool isAttackingPage { get; set; } = false;
+
+    public void Attack()
+    {
+        if (isAttackingPage)
+        {
+            isAttackingPage = false;
+        }
+        else
+        {
+            isAttackingPage = true;
+        }
+    }
 
 
 }

@@ -8,9 +8,10 @@ namespace Dr.Abrishami_Ai.Shared.Entities
 {
     public class Questions
 {
-        public int UserId { get; set; }
-
-        public List<string> DailyQuestion { get; set; }
+        public int Id { get; set; }
+        public string Qtext { get; set; }
+        public int Point { get; set; }
+        public DateTime Time { get; set; }
 
 
     }
