@@ -137,11 +137,45 @@
         </div>
     </div>
 
+    @if(LvLCounter == 1)
+    {
+        <div class="fixed top-[7.5%] left-[29.5%] ">
+            <img class=" w-[375px] h-[330px] mt-[17%]" src="/images/CostomizeRed.png" alt="Image description">
 
-    <div class="fixed top-[7.5%] left-[29.7%] ">
-        <img class=" w-[355px] h-[330px] mt-[17%]" src="/images/CostomizeRed.png" alt="Image description">
+        </div>
+    }
+    @if (LvLCounter == 2 || LvLCounter == 4)
+    {
+        <div class="fixed top-[28.5%] left-[38.5%] ">
+            <div class="w-32 aspect-square rounded-full relative flex justify-center items-center animate-[spin_3s_linear_infinite] z-40 bg-[conic-gradient(white_0deg,white_300deg,transparent_270deg,transparent_360deg)] before:animate-[spin_2s_linear_infinite] before:absolute before:w-[60%] before:aspect-square before:rounded-full before:z-[80] before:bg-[conic-gradient(white_0deg,white_270deg,transparent_180deg,transparent_360deg)] after:absolute after:w-3/4 after:aspect-square after:rounded-full after:z-[60] after:animate-[spin_3s_linear_infinite] after:bg-[conic-gradient(#065f46_0deg,#065f46_180deg,transparent_180deg,transparent_360deg)]">
+                <span class="absolute w-[85%] aspect-square rounded-full z-[60] animate-[spin_5s_linear_infinite] bg-[conic-gradient(#34d399_0deg,#34d399_180deg,transparent_180deg,transparent_360deg)]">
+                </span>
+            </div>
 
-    </div>
+
+        </div>
+    }
+
+   
+
+    @if (LvLCounter == 3)
+    {
+        <div class="fixed top-[7.5%] left-[29.5%] ">
+            <img class=" w-[375px] h-[330px] mt-[17%]" src="/images/animeLvl2.png" alt="Image description">
+
+        </div>
+
+        
+        
+    }
+    @if (LvLCounter == 5)
+    {
+        <div class="fixed top-[7.5%] left-[29.5%] ">
+            <img class=" w-[375px] h-[330px] mt-[17%]" src="/images/animeLvl3.png" alt="Image description">
+
+        </div>
+    }
+  
     <div class="fixed top-[55%] left-[16.2%] ">
         <div class="bg-[#222] shadow mt-[80px] w-[800px] h-[180px] rounded-[20px]">
             <div class="flex items-center justify-evenly pt-[5%] text-base text-gray-600 dark:text-gray-400">
@@ -162,7 +196,7 @@
                 </div>
             </div>
             <div class=" ml-[37%] mt-[3%]">
-                <MudButton Variant="Variant.Filled" Href="index" Style=" width: 200px; height: 45px;" EndIcon="@Icons.Material.Filled.Upgrade" Color="Color.Dark">Go</MudButton>
+                <MudButton Variant="Variant.Filled" @onclick="ChangeLvL" Style=" width: 200px; height: 45px;" EndIcon="@Icons.Material.Filled.Upgrade" Color="Color.Dark">Go</MudButton>
             </div>
 
         </div>
@@ -352,6 +386,47 @@
 
 </div>
 
+@if(LvLCounter == 2 || LvLCounter == 4)
+{
+    <div class=" fixed top-0 w-[120%] h-[100vh] bg-[#000] inset-0 bg-black opacity-95">
+      <div class=" fixed top-[200px] w-[450px] bg-[#222]  h-[210px] shadow mt-10 rounded-[20px] ml-[28%] mt-[45%] opacity-75">
+
+
+        <div class="grid grid-cols-6 gap-4 mt-[13%]">
+            <div class="col-start-2 col-span-4 mb-[7%]">
+                    <p class="text-[#fff] text-xl">آیا می خواهید شخصیت خود را ارتقا دهید ؟</p>
+            </div>
+
+            <div class="col-start-2 col-end-3">
+                    <MudButton Variant="Variant.Filled" @onclick="ChangeLvL" Style=" width: 100px; height: 45px;" EndIcon="@Icons.Material.Filled.Check" Color="Color.Dark">بله</MudButton>
+
+            </div>
+            <div class="col-end-7 col-span-2 -ml-[15px]">
+            <div class="col-end-7 col-span-2 -ml-[15px]">
+                        <MudButton Variant="Variant.Filled" @onclick="RejectLvL" Style=" width: 100px; height: 45px;" EndIcon="@Icons.Material.Filled.Close" Color="Color.Dark">خیر</MudButton>
+
+            </div>
+           
+
+
+        </div>
+
+           
+
+
+    </div>
+    </div>
+    </div>
+    
+}
+
+
+@* <div class="fixed top-[3.5%] left-[31%] ">
+    <img class=" w-[375px] h-[330px] mt-[17%]" src="/images/kh.png" alt="Image description">
+
+</div> *@
+
+
 
 <style type="text/css">
     .Direction {
@@ -506,6 +581,8 @@
 
     public bool isPageStory { get; set; } = false;
     public bool isBuy { get; set; } = false;
+    public int LvLCounter { get; set; } = 1;
+
 
     public void Story()
     {
@@ -523,12 +600,12 @@
     {
         character.Rifle = true;
     }
-    
+
     public void BuyShotGun()
     {
         character.ShotGun = true;
     }
-    
+
     public void BuyKnife()
     {
         character.Knife = true;
@@ -548,6 +625,50 @@
         else
         {
             isBuy = true;
+        }
+    }
+    public  void ChangeLvL()
+    {
+
+
+
+        switch (LvLCounter)
+        {
+            case 1:
+                LvLCounter = 2;
+                break;
+            case 2:
+                LvLCounter = 3;
+                break;
+            case 3:
+                LvLCounter = 4;
+                break;
+            case 4:
+                LvLCounter = 5;
+                break;
+            default:
+
+                break;
+        }
+
+    }
+
+    public void RejectLvL()
+    {
+        switch (LvLCounter)
+        {
+            case 2:
+                LvLCounter = 1;
+                break;
+            case 4:
+                LvLCounter = 3;
+                break;
+            case 5:
+                LvLCounter = 4;
+                break;
+            default:
+
+                break;
         }
     }
 
